@@ -1,0 +1,53 @@
+.shape {
+width: 350px;
+height: 350px;
+background-color: #ccc;
+background-color: #ccc;
+border-radius:  100%;
+}
+
+#center {
+  position: absolute;
+  border: solid #fff 1px;
+}
+
+#container {
+  margin: auto;
+  margin-top: 10em;
+  width: 50%
+}
+
+#tl, #tr, #bl, #br {
+position: absolute;
+height: 250px;
+width: 250px;
+z-index: -1;
+}
+
+#tl {
+  background-color: green;
+  border-radius: 100% 0 0 0;
+  top: -75px;
+  left: -80px;
+}
+
+#tr {
+  background-color: red;
+  border-radius: 0 100% 0 0;
+  top: -75px;
+  left: 180px;
+}
+
+#bl {
+  background-color: yellow;
+  border-radius:  0 0 0 100%;
+  top: 185px;
+  left: -80px;
+}
+
+#br {
+  background-color: blue;
+  border-radius: 0  0 100% 0;
+  top: 185px;
+  left: 180px;
+}
